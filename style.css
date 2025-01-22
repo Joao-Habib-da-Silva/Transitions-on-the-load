@@ -1,0 +1,20 @@
+body {
+    animation: Trani 1s;
+}
+#a {
+    width: 100%;
+    background-color: red;
+    height: 1000px;
+}
+
+@keyframes Trani {
+    from {
+        opacity: 0;
+        transform: rotatex(-100deg);
+    }
+
+    to {
+        opacity: 1; 
+        transform: rotatex(0);
+    }
+}
